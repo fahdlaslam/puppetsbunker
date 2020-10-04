@@ -11,11 +11,22 @@
     content="Indie voice casting agency." />
   <meta property="og:description"
     content="Indie voice casting agency." />
-  <link rel="canonical" href="http://localhost:4000/" />
-  <meta property="og:url" content="http://localhost:4000/" />
-  <meta property="og:site_name" content="Your awesome title" />
+  <link rel="canonical" href="{{ site.url }}" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
   <script type="application/ld+json">
-{"url":"http://localhost:4000/","name":"Your awesome title","headline":"Your awesome title","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebSite","@context":"https://schema.org"}</script>
+  {
+    "url":"{{ site.url }}",
+    "name":"{{ site.title }}",
+    "headline":"{{ page.title }}",
+    "description":"{{ site.description }}",
+    "@type":"WebSite",
+    "@context":"https://schema.org"
+  }
+  </script>
+
+  <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}{% else %}voice acting, voice over, game developer, game studio, video games, casting{% endif %}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
   <!-- End Jekyll SEO tag -->
 
   <!-- CSS -->
