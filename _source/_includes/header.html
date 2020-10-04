@@ -1,0 +1,35 @@
+<header>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-white static-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="./img/puppets-logo.png" class="img-fade" draggable="false"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+          <ul class="navbar-nav ml-auto">
+            {% if site.links %}
+                {% for link in site.links %}
+                    {% if page.title == link[0] %}
+                    <li class="nav-item active">
+                    {% else %}
+                        <li class="nav-item">
+                    {% endif %}
+                        <a class="nav-link" href="{{ link[1] }}">
+                            {% if link[0] == 'Contact' %}
+                                <!-- {{ link[0] }} -->
+                            {% else %}
+                                {{ link[0] }}
+                            {% endif %}
+                        </a>
+                    </li>
+                {% endfor %}
+            {% endif %}
+          </ul>
+          <a href="contact.html"><button type="button">Contact</button></a>
+        </div>
+      </div>
+    </nav>
+
+</header>

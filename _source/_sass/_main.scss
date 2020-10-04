@@ -1,0 +1,353 @@
+/* CUSTOM */
+@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+  padding-top: 0px;
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body .section {
+  font-size: 1.2rem;
+}
+
+.header-description {
+  font-size: 1rem;
+}
+
+.white-text {
+  color: white;
+}
+
+// .contents {
+//   padding: 0rem 14rem;
+// }
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .contents-small {
+    // padding: 0 0rem;
+  }
+
+  .container {
+    // padding: 0 4rem;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .contents-small {
+    // padding: 0 4rem;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .contents-small {
+    padding: 0 14rem;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .contents-small {
+    padding: 0 14rem;
+  }
+
+  .container {
+    padding: 0 4rem;
+  }
+
+  .header-description {
+  padding: 0 10rem;
+  }
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: white;
+  // display: inline-block;
+  // width: 100%;
+  // overflow-x: hidden;
+  // background-size: cover;
+  color: grey;
+  // align-items:center;
+}
+
+.footer-link {
+  color:#C8C2AA;
+}
+
+.footer-link:hover {
+  color:white;
+  text-decoration: none;
+}
+
+.footer-social {
+  padding-left: 0.2rem;
+}
+
+.project-row {
+  padding: 2rem 0;
+}
+
+.img-project {
+  height: 4rem;
+  width: auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3 {
+  // font-family: 'Merriweather', serif;
+  // font-family: 'Karla', sans-serif;
+  // font-family: 'Lato', sans-serif;
+  // letter-spacing: 0rem;
+}
+
+h1 {
+  // font-weight: 800;
+}
+
+h2 {
+  // text-transform: uppercase;
+  // font-weight: 600;
+  // letter-spacing: .7rem;
+  // text-shadow: .2rem .2rem 0 rgba(77, 73, 62,.3);
+  
+  span {
+    margin-right: -.7rem;
+  }
+  
+  small {
+    &::before {
+      content: "–";
+    }
+    font-weight: 500;
+    text-transform: none;
+    text-shadow: none;
+    letter-spacing: $letterSpacing;
+  }
+}
+
+.hr-small {
+  width: 10%;
+}
+
+.dots {
+  border: none;
+  width: 100%;
+  height: 2rem;
+  border-radius: 20px;
+  margin: 2rem 0;
+  background-size: 4px 4px;
+  background-image: linear-gradient(90deg, transparent, transparent 3px, rgba(0,0,0,.14) 4px),
+    linear-gradient(transparent, transparent 3px, rgba(0,0,0,.14) 4px);
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.contact-button {
+  padding: 2rem 3rem 2rem 3rem;
+  margin: 1rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-shadow: .3rem .3rem 0 rgba(77, 73, 62,.3);
+}
+
+.cast-button {
+  text-transform: uppercase;
+  font-weight: 800;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  font-size: 0.8rem;
+  padding: 1em 2rem;
+  margin: 1.2rem 0 0 0;
+  transition: 0.2s;
+}
+
+.cast-button:hover {
+  background-color: grey;
+  transition: 0.2s;
+}
+
+.button-bottom {
+  text-transform: uppercase;
+  font-weight: 800;
+  border-radius: 50px;
+  background-color: rgba(#4D493E, .35);
+  color: white;
+  font-size: 0.8rem;
+  padding: 1em 2rem;
+  // margin: 1.2rem 0 0 0;
+  transition: 0.2s;
+}
+
+.button-bottom:hover {
+  background-color: grey;
+  transition: 0.2s;
+}
+
+strong {
+  font-weight: 800;
+}
+
+.container {
+  // background-color: black;
+  display: block;
+  // overflow-x: hidden;
+  width: 100%;
+}
+
+.section {
+  // padding-top: 4rem;
+  // padding-bottom: 4rem;
+  padding: 3rem 0;
+  // padding: 3rem 16rem;
+  // background-color: black;
+}
+
+.section-sub {
+  padding: 2rem 0;
+}
+
+
+.one {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.two {
+  // background-color: rgba(200, 194, 70, 0.2);
+}
+
+.three {
+  background-color: rgba(77, 73, 62, 0.2);
+}
+
+.four {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.black {
+  // background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(77, 73, 62, 0.8);
+  // background-color: rgba(255, 255, 255, 0.8);
+}
+
+.section-root-four {
+  background-color: white;
+  // background-image: url("../img/bg1.png");
+  background-size: cover;
+}
+
+.section-root-banner {
+  // background-color: black;
+  background-image: url("../img/bg1.jpg");
+  background-size: cover;
+  // background-size: 4px 4px;
+  // background-image: linear-gradient(90deg, transparent, transparent 3px, rgba(255,255,255,.07) 4px),
+  //   linear-gradient(transparent, transparent 3px, rgba(255,255,255,.07) 4px);
+}
+
+.navbar {
+  padding: 3rem 2rem 3rem 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  img {
+    height: 4rem;
+  }
+
+  button {
+    transition: 0.3s;
+    border-radius: 50px;
+  }
+
+  button:hover, button:active, button:focus {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-name: colorcycle;
+          animation-name: colorcycle;
+  // text-decoration: underline;
+  transition: 0.3s;
+  background-color: darkgrey;
+  }
+  
+}
+
+a {
+    transition: 0.3s;
+    // color:#ffffff;
+    color:#000000;
+}
+
+  a:hover, a:active, a:focus {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-name: colorcycle;
+          animation-name: colorcycle;
+  text-decoration: none;
+  transition: 0.3s;
+  color:#C8C2AA;
+  }
+
+  
+
+  .img-fade {
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+  .img-fade:hover {
+      -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-name: colorcycle;
+          animation-name: colorcycle;
+  // text-decoration: underline;
+  transition: 0.3s;
+  opacity: 0.5;
+  }
+
+  .active {
+    font-weight: 600;
+  }
+
+  .img-casting {
+    margin:2rem 0 1rem 0;
+    padding: 0 2rem;
+  }
