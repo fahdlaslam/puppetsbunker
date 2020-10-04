@@ -1,0 +1,299 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"cast-button"
+			],
+			[
+				"sect",
+				"section-root-four"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"ca",
+				"casting"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"fle",
+				"inline-flex"
+			],
+			[
+				"bak",
+				"background"
+			],
+			[
+				"overf",
+				"overflow-x"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"fel",
+				"inline-flex"
+			],
+			[
+				"tra",
+				"transition"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install package ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/puppetsbunker/_source"
+	],
+	"file_history":
+	[
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/myloreid/casting/_source/_layouts/home.html",
+		"/Users/fahd/casting/_layouts/casting.html",
+		"/Users/fahd/casting/_layouts/project.html",
+		"/Users/fahd/casting/_sass/_main.scss",
+		"/Users/fahd/casting/_layouts/contact.html",
+		"/Users/fahd/casting/_layouts/home.html",
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/myloreid/assets/carousel.css",
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/Unity/truth/Assets/Scripts/Dialogue/DialogueUICustom.cs",
+		"/Users/fahd/Desktop/manifest.json",
+		"/Users/fahd/Documents/Unity/distance/Packages/packages-lock.json",
+		"/Users/fahd/Documents/Unity/distance/Packages/manifest.json",
+		"/Users/fahd/myloreid/_includes/projects.html",
+		"/Users/fahd/myloreid/_posts/2020-09-01-liquidation.markdown",
+		"/Users/fahd/myloreid/_posts/2020-08-01-sinsations.markdown",
+		"/Users/fahd/myloreid/_posts/2020-07-01-the-lost-delinquients-of-rollings-high.markdown",
+		"/Users/fahd/myloreid/_posts/2020-06-01-oneiros.markdown",
+		"/Users/fahd/myloreid/_includes/head.html",
+		"/Users/fahd/myloreid/assets/carousel.css",
+		"/Users/fahd/myloreid/_config.yml",
+		"/Users/fahd/myloreid/_includes/header.html",
+		"/Users/fahd/myloreid/projects.markdown",
+		"/Users/fahd/Downloads/design/websites/Sites/portfolio/_config.yml",
+		"/Users/fahd/myloreid/_projects/2016-01-01-dream-acting.md",
+		"/Users/fahd/Downloads/design/websites/nathanwentworth-master/_layouts/archive.html",
+		"/Users/fahd/Downloads/lost.jpg",
+		"/Users/fahd/Downloads/design/websites/nathanwentworth-master/_layouts/gallery.html",
+		"/Users/fahd/myloreid/_posts/2020-09-01-welcome-to-jekyll copy.markdown",
+		"/Users/fahd/Downloads/design/websites/nathanwentworth-master/projects.md",
+		"/Users/fahd/Downloads/design/websites/nathanwentworth-master/photo.md",
+		"/Users/fahd/Downloads/design/websites/nathanwentworth-master/posts.md",
+		"/Users/fahd/casting/_includes/head.html",
+		"/Users/fahd/casting/_config.yml",
+		"/Users/fahd/casting/_includes/header.html",
+		"/Users/fahd/casting/_layouts/projects.html",
+		"/Users/fahd/myloreid/_layouts/home.html",
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/myloreid/casting/index.html",
+		"/Users/fahd/casting/_includes/footer.html",
+		"/Users/fahd/casting/_sass/_contact.scss",
+		"/Users/fahd/casting/_sass/_productions.scss",
+		"/Users/fahd/casting/assets/style.scss",
+		"/Users/fahd/casting/_sass/_yorha.scss",
+		"/Users/fahd/casting/index.markdown",
+		"/Users/fahd/casting/contact.markdown",
+		"/Users/fahd/casting/casting.markdown",
+		"/Users/fahd/casting/projects.markdown",
+		"/Users/fahd/casting/project.markdown",
+		"/Users/fahd/casting/_sass/_productions",
+		"/Users/fahd/casting/_includes/about.html",
+		"/Users/fahd/casting/productions.markdown",
+		"/Users/fahd/Downloads/design/websites/nathanwentworth-master/_includes/footer.html",
+		"/Users/fahd/casting/assets/style.css",
+		"/Users/fahd/casting/_includes/head copy.html",
+		"/Users/fahd/casting/assets/style.sass",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_config.yml",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_includes/header.html",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_includes/clean-header.html",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_layouts/default-extend.html",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/index.md",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_layouts/gallery.html",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_sass/_home.scss",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_sass/_about.scss",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_layouts/default.html",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_includes/head.html",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_sass/_main.scss",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_sass/_project.scss",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_sass/_photos.scss",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_projects/2019-01-01-mylo.md",
+		"/Users/fahd/Downloads/design/websites/Sites/casting/_includes/gallery.html",
+		"/Users/fahd/Downloads/design/websites/Sites/portfolio/_projects/2016-01-01-dream-acting.md"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "puppets.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

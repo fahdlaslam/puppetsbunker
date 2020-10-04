@@ -25,9 +25,24 @@ body .section {
   color: white;
 }
 
+.triple {
+  padding: 2rem 0;
+}
+
 // .contents {
 //   padding: 0rem 14rem;
 // }
+
+.navbar img {
+    height: 4rem;
+  }
+
+// Padding for the navbar items when collapsed in menu
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-top: 1rem;
+  }
+}
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
@@ -41,6 +56,19 @@ body .section {
   .container {
     // padding: 0 4rem;
   }
+
+  .header-logo {
+
+  }
+
+  .navbar-brand {
+    width:34%;
+  }
+
+  .navbar img {
+    height: 3.5rem;
+  }
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -48,12 +76,20 @@ body .section {
   .contents-small {
     // padding: 0 4rem;
   }
+
+  // .navbar img {
+  //   height: 4rem;
+  // }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .contents-small {
     padding: 0 14rem;
+  }
+
+  .navbar img {
+    height: 4rem;
   }
 }
 
@@ -276,7 +312,7 @@ strong {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   img {
-    height: 4rem;
+    // height: 4rem;
   }
 
   button {

@@ -15,13 +15,13 @@ layout: default
         </div>
 
         <div class="container">
-          <form id="contact-form" name="contact-form" action="https://formspree.io/xaypgkop" method="POST"> 
+          <form id="contact-form" name="contact-form" action="https://formspree.io/f/xjvpknqv" method="POST"> 
             <div class="row">
               <div class="col">
-                <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+                <input type="text" id="name" name="name" class="form-control" placeholder="Name" required="required">
               </div>
               <div class="col">
-                <input type="text" id="email" name="email" class="form-control" placeholder="Email">
+                <input type="email" id="email" name="email" class="form-control" placeholder="Email" required="required">
               </div>
             </div>
             <div class="row">
@@ -30,11 +30,12 @@ layout: default
             </div>
             <div class="col">
               <div class="row"><textarea type="text" id="message" name="message" rows="6" class="textarea form-control"
-                  placeholder="Message"></textarea></div>
+                  placeholder="Message" required="required"></textarea></div>
             </div>
             <div class="row">
               <div class="col d-flex justify-content-center">
-                <a href="#" onclick="document.getElementById('contact-form').submit();"><button type="button" class="contact-button">Submit</button></a>
+                <!-- <a href="#" onclick="document.getElementById('contact-form').submit();"><button type="submit" class="contact-button">Submit</button></a> -->
+                <button type="submit" class="contact-button">Submit</button>
               </div>
             </div>
           </form>
