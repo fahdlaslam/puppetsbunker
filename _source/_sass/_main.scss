@@ -169,7 +169,7 @@ img {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  text-shadow: .3rem .3rem 0 rgba(77, 73, 62,.3);
+  // text-shadow: .3rem .3rem 0 rgba(77, 73, 62,.3);
 }
 
 .cast-button {
@@ -204,6 +204,10 @@ img {
 .button-bottom:hover {
   background-color: grey;
   transition: 0.2s;
+}
+
+.button-header {
+  // font-weight: 600;
 }
 
 strong {
