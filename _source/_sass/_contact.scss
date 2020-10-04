@@ -7,7 +7,7 @@ textarea {
   width:100%;
 }
 
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
   padding:10px;
   border:0;
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
@@ -17,7 +17,7 @@ input[type=text], textarea {
   background-color: rgba(#C8C2AA, .35);
 }
 
-input[type=text]:hover, textarea:hover {
+input[type=text]:hover, input[type=email]:hover, textarea:hover {
   
   background-color: rgba(#C8C2AA, .35);
   //#ffd969
