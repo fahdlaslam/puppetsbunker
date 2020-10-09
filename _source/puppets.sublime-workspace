@@ -100,10 +100,19 @@
 	},
 	"expanded_folders":
 	[
-		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/puppetsbunker/_source"
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/puppetsbunker/_source",
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/puppetsbunker/_source/_includes",
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/puppetsbunker/_source/_layouts",
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/puppetsbunker/_source/_sass"
 	],
 	"file_history":
 	[
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/puppetsbunker/_source/_sass/_contact.scss",
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/puppetsbunker/_source/_includes/head.html",
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/puppetsbunker/_source/_layouts/home.html",
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/puppetsbunker/_source/_config.yml",
+		"/Users/fahd/Downloads/design/websites/nathanwentworth-master/_includes/head.html",
+		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/puppetsbunker/index.html",
 		"/Volumes/BOOTCAMP/Users/Fahd/Documents/GitHub/myloreid/casting/_source/_layouts/home.html",
 		"/Users/fahd/casting/_layouts/casting.html",
 		"/Users/fahd/casting/_layouts/project.html",
